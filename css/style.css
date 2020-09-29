@@ -1,0 +1,539 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Libre Franklin', sans-serif;
+
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/***********************************
+          UNIQUE css start
+***********************************/
+
+/***********************************
+      header-section css start
+***********************************/
+.header-section{
+	width: 100%;
+	background: url(../images/banner.png) center top no-repeat;
+	background-size: cover;
+}
+
+.menu-section{
+	width: 100%;
+}
+.menu-section .bg-light{
+	width: 100%;
+	background: transparent !important;
+}
+
+.menu-section .navbar-light .navbar-nav .nav-link {
+    color: #1a1a1a;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px 15px;
+}
+.menu-section .navbar-light .navbar-nav .nav-link:hover{
+	background: url(../images/menu-hover.png) center bottom no-repeat;
+	background-size: contain;
+}
+
+.menu-section .navbar-light .navbar-nav .active > .nav-link{
+	color: #511de5;
+	font-size: 14px;
+	font-weight: 600;
+	background: url(../images/menu-hover.png) center bottom no-repeat;
+	background-size: contain;
+}
+
+.menu-section .right-button .nav-link{
+	color: #1a1a1a;
+    font-size: 14px;
+    font-weight: 600;
+}
+.menu-section .right-button .nav-link:hover{
+	background: url(../images/menu-hover.png) center bottom no-repeat;
+	background-size: contain;
+}
+.menu-section .right-button .btn-info{
+	padding: 8px 35px;
+	border-radius: 35px;
+	font-size: 14px;
+	font-weight: 500px;
+	color: #ffffff;
+	background:linear-gradient(to right, #511de5 40%, #0c8afb);
+	border:1px solid transparent;
+}
+.menu-section .right-button .btn-info:hover{
+	color: #511de5;
+	background:transparent;
+	border:1px solid #511de5;
+}
+/***********************************
+      header-section css end
+***********************************/
+
+/**********************************
+Banner-Section Code start
+**********************************/
+.banner-section{
+	width: 100%;
+	padding: 60px 0px 90px 0px;
+}
+.banner-section .banner-inner{
+	width: 100%;
+	padding: 90px 0px 90px 0px;
+}
+.banner-section .banner-inner h1{
+	font-size: 60px;
+	line-height: 80px;
+	font-weight: 700;
+}
+.banner-section .banner-inner h1 span{
+	color: #511de5;
+}
+.banner-section .banner-inner .btn-info{
+	padding: 10px 35px;
+	margin: 30px 0px;
+	border-radius: 35px;
+	background: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #061113;
+	transition: 1s;
+}
+
+.banner-section .banner-inner .btn-info:hover{
+	background: #511de5;
+	border: 1px solid #511de5;
+	color: #fff;
+}
+/************************
+Banner-Section Code end
+*************************/
+
+/**************************************************************
+				highlight-Section Code start
+***************************************************************/
+.hilight-area{
+	widows: 100%;
+	padding: 40px 0px;
+	position: relative;
+	background: url(../images/highlight.png) center center no-repeat;
+	background-size: cover;
+}
+.hilight-area .w-abs{
+	position: absolute;
+	top: -104px;
+	left: 0px;
+}
+.hilight-area .highlight-inner{
+	width: 100%;
+}
+.hilight-area .highlight-inner h2{
+	text-align: center;
+	font-size: 26px;
+	font-weight: 700;
+	color: #fff;
+}
+/**************************************************
+			highlight-Section Code end
+***************************************************/
+
+/**************************************************
+			features-Section Code Start
+***************************************************/
+.features{
+	width: 100%;
+	padding: 90px 0px;
+}
+.features .feature-inner{
+	width: 100%;
+	padding: 100px 100px 150px;
+	background: url(../images/features.png) center bottom no-repeat;
+	background-size: cover;
+}
+
+.features .feature-inner h2{
+	font-size: 52px;
+	font-weight: 900;
+	color: #1a1a1a;
+	margin-bottom: 30px;
+}
+.features .feature-inner p{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #000;
+	margin-bottom: 40px;
+}
+.features .feature-inner h4 strong{
+	font-size: 130px;
+	font-weight: 900;
+	color: #511de5;
+}
+.features .feature-inner h4 span{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: #000;
+}
+
+.features .client{
+	width: 100%;
+	padding: 30px 0px;
+	text-align: center;
+}
+.features .client img{
+	width: 80%;
+}
+/**************************************************
+			features-Section Code End
+***************************************************/
+
+
+/**************************************************
+			intro-quote CSS Code start
+***************************************************/
+.intro-quote{
+	width: 100%;
+	padding: 100px 0px;
+	background: url(../images/intro-quote.png) center top no-repeat;
+	background-size: cover;
+}
+.intro-quote .left-text{
+	width: 100%;
+	margin-top: 160px;
+	margin-left: 210px;
+}
+.intro-quote .left-text p{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+}
+.intro-quote .left-text h5{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 14px;
+	font-weight: 900;
+	color: #fff;
+}
+.intro-quote .right-text{
+	width: 100%;
+	margin-top: 120px;
+	margin-left: 30px;
+}
+.intro-quote .right-text h2{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 52px;
+	font-weight: 900;
+	color: #000;
+}
+
+.intro-quote .right-text .btn-info{
+	padding: 10px 35px;
+	margin: 30px 0px;
+	border-radius: 35px;
+	background: #fff;
+	border: 1px solid #f2f2f2;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #061113;
+	transition: 1s;
+}
+/**************************************************
+			intro-quote CSS Code End
+***************************************************/
+
+/**************************************************
+			Effciency CSS Code start
+***************************************************/
+.efficiency{
+	width: 100%;
+	padding: 50px 0px;
+}
+.efficiency .eff-left{
+	width: 100%;
+	padding: 50px 0px;
+}
+.efficiency .eff-left h2{
+	font-size: 48px;
+	font-weight: 900;
+	color: #000;
+}
+.efficiency .eff-left p{
+	padding: 10px 0px;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #000;
+}
+.efficiency .eff-left h6{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+.efficiency .eff-left h6 img{
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+.efficiency .eff-left .btn-info{
+	padding: 10px 35px;
+	margin: 30px 0px;
+	border-radius: 35px;
+	/*background: #fff;*/
+	background:linear-gradient(to right, #511de5 40%, #0c8afb);
+	border: 0px solid #f2f2f2;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #fff;
+	transition: 1s;
+}
+.efficiency .eff-left .btn-info:hover{
+	background: #511de5;
+}
+/**************************************************
+			Effciency CSS Code End
+***************************************************/
+
+/**************************************************
+			design-feedback CSS Code start
+***************************************************/
+.design-feedback{
+	width: 100%;
+	padding: 50px 0px;
+	background: #fcfcfc;
+}
+.design-feedback .title{
+	width: 100%;
+	padding: 30px 0px;
+	text-align: center;
+}
+.design-feedback .title h2{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 48px;
+	font-weight: 900;
+	color: #000;
+}
+.design-feedback .title p{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 20px 0px;
+}
+.design-feedback .design-inner{
+	width: 100%;
+	text-align: center;
+}
+.design-feedback .design-inner img{
+	mix-blend-mode: darken;
+}
+.design-feedback .design-inner h4{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+}
+.design-feedback .design-inner p{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400px;
+}
+/**************************************************
+			design-feedback CSS Code end
+***************************************************/
+
+/**************************************************
+			Quote CSS Code start
+***************************************************/
+
+.quote{
+	width:100%;
+	padding: 80px 0px;
+
+}
+.quote .title{
+	width: 100%;
+	padding: 40px 0px;
+	text-align: center;
+}
+
+.quote .title h2{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 48px;
+	font-weight: 900;
+	color: #000;
+}
+
+.quote .quote-inner{
+	width: 100%;
+	/*padding: 50px 20px;*/
+	background: url("../images/quote-bg.png") center top no-repeat;
+	background-size: cover;
+	text-align: center;
+	opacity: .5;
+}
+
+
+
+.quote .quote-inner .quote-text{
+	width: 100%;
+	padding: 70px 0px;
+}
+
+.quote .quote-inner .quote-text h5{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size:14px;
+	line-height: 22px;
+	font-weight: 700;
+}
+
+.quote .client-inner{
+	width: 100%;
+	padding: 30px 0px 10px;
+} 
+.quote .client-inner img{
+	margin-top: 80px;
+}
+.quote .client-inner h4{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+.quote .client-inner p{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.quote .quote-inner:hover{
+	opacity: 1;
+}
+.quote .quote-inner:hover .quote-text h5{
+	color:#511de5;
+}
+
+/**************************************************
+			Quote CSS Code end
+***************************************************/
+
+/**************************************************
+			Footer Section CSS Code start
+***************************************************/
+
+.footer-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/footer-bg.png") center bottom no-repeat;
+	background-size: contain;
+}
+.footer-section .faq{
+	width: 100%;
+	padding: 90px;
+	background: #fff;
+	box-shadow: 1px 4px 10px #ccc;
+}
+.footer-section .faq .title{
+	width: 100%;
+	text-align: center;
+}
+.footer-section .faq .title h2{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 48px;
+	font-weight: 900;
+}
+.footer-section .card {
+
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid rgba(0,0,0,.125);
+    border-radius: 0px;
+        
+}
+.footer-section .card-body {
+    padding: 15px;
+}
+.footer-section .card-header {
+    padding: 15px 5px;
+    margin-bottom: 0;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.footer-section .btn:focus {
+    box-shadow: none;
+    text-decoration: none;
+}
+.footer-section .btn-link{
+	color: #000;
+	font-size: 14px;
+	font-weight: 700;
+}
+.footer-section .btn-link:hover {
+    text-decoration: none;
+    box-shadow: none;
+    color: #0000ff;
+}
+.footer-section .btn-link:active{
+	color: #0000ff;
+}
+
+.footer-section .bottom-menu{
+	padding: 50px 0px;
+}
+
+.footer-section .bottom-menu li{
+	list-style: none;
+	display: inline;
+}
+
+.footer-section .bottom-menu li a{
+	text-align: center;
+	padding: 0px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+}
+.footer-section .bottom-menu li a:hover{
+	color:grey;
+}
+
+.footer-section .copyright{
+	width: 100%;
+	padding: 50px 0px;
+	text-align: right;
+}
+.footer-section .copyright h5{
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+}
+/**************************************************
+			Footer Section CSS Code end
+***************************************************/
+
+/*font-family: 'Libre Franklin', sans-serif;
+font-family: 'Maven Pro', sans-serif;*/
